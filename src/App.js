@@ -7,14 +7,18 @@ import Total from './components/Total';
 
 const App = () => {
   return (
-    <div className="boxes">
-      <div className="box">
-        <Header />
-        <AddedFeatures />
+    <div className="columns">
+      <div className="column">
+        <div className='card'>
+          <Header />
+          <AddedFeatures />
+        </div>
       </div>
-      <div className="box">
-        <AdditionalFeatures />
-        <Total />
+      <div className="column">
+        <div className='card'>
+          <AdditionalFeatures />
+          <Total />
+        </div>
       </div>
     </div>
   );
